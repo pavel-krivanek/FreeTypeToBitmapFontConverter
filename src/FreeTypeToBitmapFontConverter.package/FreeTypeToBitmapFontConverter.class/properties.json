@@ -1,0 +1,22 @@
+{
+	"commentStamp" : "PavelKrivanek 11/6/2017 15:14",
+	"super" : "Object",
+	"category" : "FreeTypeToBitmapFontConverter",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"font",
+		"realFont",
+		"ascent",
+		"descent",
+		"fontHeight",
+		"xTable",
+		"maxWidth",
+		"glyphs",
+		"emphasis",
+		"strikeFont"
+	],
+	"name" : "FreeTypeToBitmapFontConverter",
+	"type" : "normal"
+}
