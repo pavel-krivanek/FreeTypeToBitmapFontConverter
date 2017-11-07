@@ -13,7 +13,7 @@ computeXTable
 			xTable 
 				at: i + 1
 				put: xStart.
-			w := (font widthOf: (Character value: i)) ceiling.
+			w := self widthOfChar: (Character value: i).
 			w > maxWidth ifTrue: [ maxWidth := w ].
 			xStart := xStart + w ].
 		

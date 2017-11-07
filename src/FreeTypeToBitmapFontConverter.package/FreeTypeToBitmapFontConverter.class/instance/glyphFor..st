@@ -3,7 +3,7 @@ glyphFor: aCharacter
 
 	| w form port text |
 	
-	w := font widthOf: aCharacter.
+	w := self widthOfChar: aCharacter.
 	form := Form 
 			extent: w @ fontHeight
 			depth: 32.
